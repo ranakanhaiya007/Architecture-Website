@@ -40,7 +40,7 @@
             <div class="line line-3"></div>
             <span>Close</span>
         </div>
-        <header class="header">
+        <header class="header" id="home">
             <div class="img-wrapper">
                 <img src="images/bg6.jpg" alt="">
             </div>
@@ -50,22 +50,22 @@
                 <button>Discover Now</button>
             </div>
         </header>
-        <section class="sidebar">
+        <section class="sidebar" id="sidebar">
             <ul class="menubar">
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Home">Home</a>
+                    <a href="#home" class="menu-link" data-content="Home">Home</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="About">About</a>
+                    <a href="#about" class="menu-link" data-content="About">About</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Info">Info</a>
+                    <a href="#self" class="menu-link" data-content="Info">Info</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Pricing">Pricing</a>
+                    <a href="#pricing" class="menu-link" data-content="Pricing">Pricing</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Contact">Contact</a>
+                    <a href="#contact" class="menu-link" data-content="Contact">Contact</a>
                 </li>
             </ul>
             <div class="social">
@@ -74,7 +74,7 @@
                 <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="section-header">
                 <h1 class="section-heading">About</h1>
                 <div class="underline"></div>
@@ -91,7 +91,7 @@
                         distinctio molestias, officiis, quam adipisci.
                     </p>
                 </div>
-                <div class="service">
+                <div class="service" id="service">
                     <div class="service-header">
                         <i class="fas fa-paint-roller"></i>
                         <h3>Exterior</h3>
@@ -146,7 +146,7 @@
                 </div>
             </div>
         </section>
-        <section class="self">
+        <section class="self" id="self">
             <div class="section-header">
                 <h1 class="section-heading">I n f o</h1>
                 <div class="underline"></div>
@@ -188,7 +188,108 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="pricing" id="pricing">
+            <div class="section-header">
+                <h1 class="section-heading">Pricing</h1>
+                <div class="underline"></div>
+                <div class="underline2"></div>
+
+
+
+
+
+
+
+            </div>
+            <h1 class="title">Choose a plan</h1>
+            <div class="toogle-switch">
+                <span>Professional</span>
+                <input type="checkbox" class="toggler" value="">
+                <span>Personal</span>
+            </div>
+
+            <div class="tiles">
+                <div class="tile">
+                    <h1 class="tile-title">Interior Only</h1>
+                    <h2 class="tile-price"><i class="fa-solid fa-indian-rupee-sign">40000</i><span>/ Room</span></h2>
+                    <ul class="tile-plan">
+                        <li>Designing</li>
+                        <li>Planning</li>
+                        <li>Painting</li>
+                        <li>Repairing</li>
+                        <li>Mofications</li>
+                    </ul>
+                    <a href="#home"><button type = "button" class="tile-btn">Choose Plan</button></a>
+                </div>
+                <div class="tile">
+                    <h1 class="tile-title">Exterior Only</h1>
+                    <h2 class="tile-price"><i class="fa-solid fa-indian-rupee-sign">100000</i><span>/ House</span></h2>
+                    <ul class="tile-plan">
+                        <li>Designing</li>
+                        <li>Planning</li>
+                        <li>Painting</li>
+                        <li>Repairing</li>
+                        <li>Mofications</li>
+                    </ul>
+                    <a href="#home"><button type = "button" class="tile-btn">Choose Plan</button></a>
+                </div>
+                <div class="tile">
+                    <h1 class="tile-title">Full House</h1>
+                    <h2 class="tile-price"><i class="fa-solid fa-indian-rupee-sign">130000</i><span>/ House</span></h2>
+                    <ul class="tile-plan">
+                        <li>personalize Designing</li>
+                        <li>personalize Planning</li>
+                        <li>personalize Painting</li>
+                        <li>Repairing</li>
+                        <li>personalize Mofications</li>
+                    </ul>
+                    <a href="#home"><button type = "button" class="tile-btn" id="title-btn">Choose Plan</button></a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="price-wrapper">
+                <div class="price">
+                    <div class="pricing-img-wrapper">
+                        <img src="images/pricing.jpg" alt="pricing">
+                    </div>
+                    <div class="price-info">
+                        <h2>Interior Design</h2>
+                        <h3>Rs 30000 per Room</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, reiciendis?</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="pricing-img-wrapper">
+                        <img src="images/pricing.jpg" alt="pricing">
+                    </div>
+                    <div class="price-info">
+                        <h2>Exterior Design</h2>
+                        <h3>Rs 80000 per House</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, reiciendis?</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="pricing-img-wrapper">
+                        <img src="images/pricing.jpg" alt="pricing">
+                    </div>
+                    <div class="price-info">
+                        <h2>Full House</h2>
+                        <h3>Rs 100000 Per Home</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, reiciendis?</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <section class="contact" id="contact">
             <div class="contact-wrapper">
                 <div class="contact-left">
                     <!-- <img src="images/contact.jpg" alt=""> -->
